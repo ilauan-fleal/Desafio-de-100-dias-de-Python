@@ -5,9 +5,26 @@ ListaPalavra = ["abacate", "laranja", "morango"]
 
 LetrasCorretas = []
 
+
+
+ListaDePalavras = ["a", "e", "i", "o", "u", "?", "*", "%", " &", "!", "@", "."]
+
 PalavraEscolhida = random.choice(ListaPalavra)
 
+a = []
+tamanhoLista = 0
+while tamanhoLista < 7:
+    
+    a.append(ListaDePalavras[random.randint(0,len(ListaDePalavras) - 1)])
+    tamanhoLista += 1
 
+print("Palavra criptografada -> Comprimento igual a 7:\n")
+
+for z in a:
+    b += z
+    print(z,end='')
+
+print("\n\n")
 
 estagios = ["""
 
@@ -119,7 +136,7 @@ def GerarPalavra(ListaPalavra):
         local = local + "_"
 
 
-    print(local)
+    print(f"{local}")
 
 
 GerarPalavra(ListaPalavra)
@@ -145,7 +162,7 @@ def VerificaPalpite(PalavraEscolhida,exibir,LetrasCorretas):
             exibir = exibir + "_"
             
         
-    print(exibir)
+    print(f"{exibir}")
     #O laço só será executado se o palpite fornecido não estiver presente na palavra escolhida.
     if palpite not in PalavraEscolhida:
         tentativas = tentativas + 1 #incremento
