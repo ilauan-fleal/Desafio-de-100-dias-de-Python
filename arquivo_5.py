@@ -44,7 +44,7 @@ tesoura = '''
 lista = [pedra, papel, tesoura]
 
 
-
+#Arquivo 5
 
 
 

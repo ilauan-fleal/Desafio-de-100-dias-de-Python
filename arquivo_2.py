@@ -1,7 +1,7 @@
 ﻿#Criando função para inverter valores de variáveis
 glass1 = "milk"
 glass2 = "juice"
-
+#Arquivo 2
 def InverteValor():
     global glass1  #Referência a um parâmetro global
     global glass2  #Outra referência feita a um parâmetro global

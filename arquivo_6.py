@@ -173,7 +173,7 @@ def VerificaPalpite(PalavraEscolhida,exibir,LetrasCorretas):
 
     
 #Função para verificar se o jogador acertou
-
+#Arquivo 6
 
 def Acertou(PalavraEscolhida):
     ComprimentoPalavra = len(PalavraEscolhida)

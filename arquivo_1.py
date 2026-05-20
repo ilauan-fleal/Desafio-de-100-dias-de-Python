@@ -1,5 +1,5 @@
 ﻿#Uma possibilidade, para alterar o valor das variáveis:
-
+#Arquivo 1
 glass1 = "milk"
 glass2 = "juice"
 x = input("Type a new value:")
