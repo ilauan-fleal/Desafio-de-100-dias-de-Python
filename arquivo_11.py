@@ -33,7 +33,7 @@ def ParaOuContinua():
             continue  #retorna para o laço
         elif deve_continuar.lower() == 'não':
             continuar_apostas = False
-            encontrar_aposta_mais_alta(apostas)
+            encontrar_aposta_mais_alta(apostas)  #Chamada de uma função dentro de outra.
             print("Ok, programa finalizado!\n")
             exit(1)
         else:
